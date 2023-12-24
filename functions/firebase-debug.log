@@ -1,0 +1,76 @@
+[debug] [2023-12-24T21:28:39.624Z] ----------------------------------------------------------------------
+[debug] [2023-12-24T21:28:39.627Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\emabe\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js emulators:start
+[debug] [2023-12-24T21:28:39.627Z] CLI Version:   13.0.2
+[debug] [2023-12-24T21:28:39.628Z] Platform:      win32
+[debug] [2023-12-24T21:28:39.628Z] Node Version:  v18.18.2
+[debug] [2023-12-24T21:28:39.629Z] Time:          Sun Dec 24 2023 16:28:39 GMT-0500 (Eastern Standard Time)
+[debug] [2023-12-24T21:28:39.629Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-12-24T21:28:39.825Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-12-24T21:28:39.827Z] > authorizing via signed-in user (emabetkedean@gmail.com)
+[info] i  emulators: Starting emulators: functions {"metadata":{"emulator":{"name":"hub"},"message":"Starting emulators: functions"}}
+[debug] [2023-12-24T21:28:39.849Z] [logging] Logging Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[warn] !  ui: Emulator UI unable to start on port 4000, starting on 4001 instead. {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI unable to start on port 4000, starting on 4001 instead."}}
+[debug] [2023-12-24T21:28:39.851Z] assigned listening specs for emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}]},"metadata":{"message":"assigned listening specs for emulators"}}
+[warn] !  emulators: It seems that you are running multiple instances of the emulator suite for project fir-f9efa. This may result in unexpected behavior. 
+[debug] [2023-12-24T21:28:39.874Z] [hub] writing locator at C:\Users\emabe\AppData\Local\Temp\hub-fir-f9efa.json
+[debug] [2023-12-24T21:28:39.944Z] [functions] Functions Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-12-24T21:28:39.945Z] [eventarc] Eventarc Emulator only supports listening on one address (127.0.0.1). Not listening on ::1
+[debug] [2023-12-24T21:28:39.945Z] late-assigned ports for functions and eventarc emulators {"user":{"hub":[{"address":"127.0.0.1","family":"IPv4","port":4400},{"address":"::1","family":"IPv6","port":4400}],"logging":[{"address":"127.0.0.1","family":"IPv4","port":4500}],"ui":[{"address":"127.0.0.1","family":"IPv4","port":4001},{"address":"::1","family":"IPv6","port":4001}],"functions":[{"address":"127.0.0.1","family":"IPv4","port":5001}],"eventarc":[{"address":"127.0.0.1","family":"IPv4","port":9299}]},"metadata":{"message":"late-assigned ports for functions and eventarc emulators"}}
+[warn] !  functions: The following emulators are not running, calls to these services from the Functions emulator will affect production: auth, firestore, database, hosting, pubsub, storage {"metadata":{"emulator":{"name":"functions"},"message":"The following emulators are not running, calls to these services from the Functions emulator will affect production: \u001b[1mauth, firestore, database, hosting, pubsub, storage\u001b[22m"}}
+[debug] [2023-12-24T21:28:39.955Z] defaultcredentials: writing to file C:\Users\emabe\AppData\Roaming\firebase\emabetkedean_gmail_com_application_default_credentials.json
+[debug] [2023-12-24T21:28:39.979Z] Setting GAC to C:\Users\emabe\AppData\Roaming\firebase\emabetkedean_gmail_com_application_default_credentials.json {"metadata":{"emulator":{"name":"functions"},"message":"Setting GAC to C:\\Users\\emabe\\AppData\\Roaming\\firebase\\emabetkedean_gmail_com_application_default_credentials.json"}}
+[debug] [2023-12-24T21:28:39.983Z] > refreshing access token with scopes: []
+[debug] [2023-12-24T21:28:39.988Z] >>> [apiv2][query] POST https://www.googleapis.com/oauth2/v3/token [none]
+[debug] [2023-12-24T21:28:39.988Z] >>> [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-24T21:28:40.439Z] <<< [apiv2][status] POST https://www.googleapis.com/oauth2/v3/token 200
+[debug] [2023-12-24T21:28:40.439Z] <<< [apiv2][body] POST https://www.googleapis.com/oauth2/v3/token [omitted]
+[debug] [2023-12-24T21:28:40.446Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/fir-f9efa/adminSdkConfig [none]
+[debug] [2023-12-24T21:28:40.940Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/fir-f9efa/adminSdkConfig 200
+[debug] [2023-12-24T21:28:40.940Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/fir-f9efa/adminSdkConfig {"projectId":"fir-f9efa","storageBucket":"fir-f9efa.appspot.com"}
+[debug] [2023-12-24T21:28:40.965Z] Ignoring unsupported arg: auto_download {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: auto_download"}}
+[debug] [2023-12-24T21:28:40.965Z] Ignoring unsupported arg: port {"metadata":{"emulator":{"name":"ui"},"message":"Ignoring unsupported arg: port"}}
+[debug] [2023-12-24T21:28:40.966Z] Starting Emulator UI with command {"binary":"node","args":["C:\\Users\\emabe\\.cache\\firebase\\emulators\\ui-v1.11.7\\server\\server.js"],"optionalArgs":[],"joinArgs":false} {"metadata":{"emulator":{"name":"ui"},"message":"Starting Emulator UI with command {\"binary\":\"node\",\"args\":[\"C:\\\\Users\\\\emabe\\\\.cache\\\\firebase\\\\emulators\\\\ui-v1.11.7\\\\server\\\\server.js\"],\"optionalArgs\":[],\"joinArgs\":false}"}}
+[info] i  ui: Emulator UI logging to ui-debug.log {"metadata":{"emulator":{"name":"ui"},"message":"Emulator UI logging to \u001b[1mui-debug.log\u001b[22m"}}
+[debug] [2023-12-24T21:28:41.131Z] Web / API server started at 127.0.0.1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at 127.0.0.1:4001\n"}}
+[debug] [2023-12-24T21:28:41.132Z] Web / API server started at ::1:4001
+ {"metadata":{"emulator":{"name":"ui"},"message":"Web / API server started at ::1:4001\n"}}
+[info] i  functions: Watching "C:\Users\emabe\OneDrive\Desktop\evangadi\phase-4\amazonProject\amazon-clone\functions" for Cloud Functions... {"metadata":{"emulator":{"name":"functions"},"message":"Watching \"C:\\Users\\emabe\\OneDrive\\Desktop\\evangadi\\phase-4\\amazonProject\\amazon-clone\\functions\" for Cloud Functions..."}}
+[debug] [2023-12-24T21:28:41.249Z] Validating nodejs source
+[debug] [2023-12-24T21:28:43.459Z] > [functions] package.json contents: {
+  "name": "functions",
+  "description": "Cloud Functions for Firebase",
+  "scripts": {
+    "lint": "eslint .",
+    "serve": "firebase emulators:start --only functions",
+    "shell": "firebase functions:shell",
+    "start": "npm run shell",
+    "deploy": "firebase deploy --only functions",
+    "logs": "firebase functions:log"
+  },
+  "engines": {
+    "node": "18"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "firebase-admin": "^11.8.0",
+    "firebase-functions": "^4.3.1",
+    "stripe": "^14.9.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-google": "^0.14.0",
+    "firebase-functions-test": "^3.1.0"
+  },
+  "private": true
+}
+[debug] [2023-12-24T21:28:43.460Z] Building nodejs source
+[debug] [2023-12-24T21:28:43.460Z] Failed to find version of module node: reached end of search path C:\Users\emabe\OneDrive\Desktop\evangadi\phase-4\amazonProject\amazon-clone\functions\node_modules
+[info] +  functions: Using node@18 from host. 
+[debug] [2023-12-24T21:28:43.464Z] Could not find functions.yaml. Must use http discovery
+[debug] [2023-12-24T21:28:43.472Z] Found firebase-functions binary at 'C:\Users\emabe\OneDrive\Desktop\evangadi\phase-4\amazonProject\amazon-clone\functions\node_modules\.bin\firebase-functions'
+[info] Serving at port 8573
+
