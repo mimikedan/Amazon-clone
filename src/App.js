@@ -41,48 +41,48 @@ function App() {
   return (
     <Router basename={process.env.PUBLIC_URL}>
       {/* <div className="App"> */}
-        <Routes>
-          <Route path="/login" element={<Login />} />
-          <Route
-            path="/payment"
-            element={
-              <>
-                <Header />
-                <Elements stripe={promise}>
-                  <Payment />
-                </Elements>
-              </>
-            }
-          />
+      <Routes>
+        <Route
+          path="/"
+          element={
+            <>
+              <Header />
+              <Home />
+            </>
+          }
+        />
+        <Route path="/login" element={<Login />} />
+        <Route
+          path="/payment"
+          element={
+            <>
+              <Header />
+              <Elements stripe={promise}>
+                <Payment />
+              </Elements>
+            </>
+          }
+        />
 
-          <Route
-            path="/"
-            element={
-              <>
-                <Header />
-                <Home />
-              </>
-            }
-          />
-          <Route
-            path="/checkout"
-            element={
-              <>
-                <Header />
-                <Checkout />
-              </>
-            }
-          />
-          <Route
-            path="/Orders"
-            element={
-              <>
-                <Header />
-                <Orders />
-              </>
-            }
-          />
-        </Routes>
+        <Route
+          path="/checkout"
+          element={
+            <>
+              <Header />
+              <Checkout />
+            </>
+          }
+        />
+        <Route
+          path="/Orders"
+          element={
+            <>
+              <Header />
+              <Orders />
+            </>
+          }
+        />
+      </Routes>
       {/* </div> */}
     </Router>
   );
