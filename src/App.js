@@ -40,7 +40,7 @@ function App() {
 
   return (
     <Router basename={process.env.PUBLIC_URL}>
-      <div className="App">
+      {/* <div className="App"> */}
         <Routes>
           <Route path="/login" element={<Login />} />
           <Route
@@ -83,7 +83,7 @@ function App() {
             }
           />
         </Routes>
-      </div>
+      {/* </div> */}
     </Router>
   );
 }
