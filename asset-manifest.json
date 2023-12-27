@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Amazo-clonenp/static/css/main.eb5e00ec.css",
-    "main.js": "/Amazo-clonenp/static/js/main.dfdeed30.js",
-    "static/js/787.ae3bcd1c.chunk.js": "/Amazo-clonenp/static/js/787.ae3bcd1c.chunk.js",
-    "index.html": "/Amazo-clonenp/index.html",
-    "main.eb5e00ec.css.map": "/Amazo-clonenp/static/css/main.eb5e00ec.css.map",
-    "main.dfdeed30.js.map": "/Amazo-clonenp/static/js/main.dfdeed30.js.map",
-    "787.ae3bcd1c.chunk.js.map": "/Amazo-clonenp/static/js/787.ae3bcd1c.chunk.js.map"
+    "main.css": "/Amazo-clone/static/css/main.eb5e00ec.css",
+    "main.js": "/Amazo-clone/static/js/main.7f1696f9.js",
+    "static/js/787.ae3bcd1c.chunk.js": "/Amazo-clone/static/js/787.ae3bcd1c.chunk.js",
+    "index.html": "/Amazo-clone/index.html",
+    "main.eb5e00ec.css.map": "/Amazo-clone/static/css/main.eb5e00ec.css.map",
+    "main.7f1696f9.js.map": "/Amazo-clone/static/js/main.7f1696f9.js.map",
+    "787.ae3bcd1c.chunk.js.map": "/Amazo-clone/static/js/787.ae3bcd1c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.eb5e00ec.css",
-    "static/js/main.dfdeed30.js"
+    "static/js/main.7f1696f9.js"
   ]
 }
