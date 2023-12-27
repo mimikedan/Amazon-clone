@@ -15,7 +15,7 @@ function Home() {
         <div className="home__row">
           <Product
             id="12321451"
-            title="Keurig K-Classic Coffee Maker K-Cup Pod, Single Serve, Programmable."
+            title="Keurig K-Classic Coffee Maker K-Cup Pod, Single Serve, Programmable"
             price={79.99}
             rating={5}
             image="https://m.media-amazon.com/images/I/71Ikuq6AAfL._AC_SL1500_.jpg"
